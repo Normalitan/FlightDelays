@@ -3,10 +3,10 @@
 
 This project focuses on predicting the type of flight delays (Top 3: CarrierDelay, LateAircraftDelay, NASDelay) using 2 machine learning classification models. The analysis involves data preprocessing, feature engineering, model training, and evaluation using various classification techniques, Random Forest and Logistic Regression.
 
-#Dataset
-The dataset contains flight-related information, including attributes such as the month, day of the month, day of the week, departure and arrival times, carrier, origin, destination, distance, taxi-in and taxi-out times, and delays due to different reasons. The target variable is the delay type ('DelayType') derived from the maximum delay among CarrierDelay, LateAircraftDelay, and NASDelay.
+# Dataset
+The dataset used is the first 500k rows of the total complete dataset contains flight-related information, including attributes such as the month, day of the month, day of the week, departure and arrival times, carrier, origin, destination, distance, taxi-in and taxi-out times, and delays due to different reasons. The target variable is the delay type ('DelayType') derived from the maximum delay among CarrierDelay, LateAircraftDelay, and NASDelay.
 
-#Objectives
+# Objectives
 - EDA: Perform Exploratory Data Analysis to understand feature distributions, relationships, and potential data quality issues.
 - Feature Engineering: Create new features, such as departure hour, arrival hour, and indicators for morning and evening flights, to improve model performance.
 - Modeling: Apply and compare different classification models, including Random Forest and Logistic Regression, to predict flight delay types.
