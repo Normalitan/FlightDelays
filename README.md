@@ -5,6 +5,7 @@ This project focuses on predicting the type of flight delays (Top 3: CarrierDela
 
 # Dataset
 The dataset used is the first 500k rows of the total complete dataset contains flight-related information, including attributes such as the month, day of the month, day of the week, departure and arrival times, carrier, origin, destination, distance, taxi-in and taxi-out times, and delays due to different reasons. The target variable is the delay type ('DelayType') derived from the maximum delay among CarrierDelay, LateAircraftDelay, and NASDelay.
+https://data.world/data-society/airlines-delay
 
 # Objectives
 - EDA: Perform Exploratory Data Analysis to understand feature distributions, relationships, and potential data quality issues.
